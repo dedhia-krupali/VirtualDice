@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBCFCAB3258DC91D0063B0A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCFCAB2258DC91D0063B0A6 /* AppDelegate.swift */; };
+		EBCFCAB5258DC91D0063B0A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCFCAB4258DC91D0063B0A6 /* SceneDelegate.swift */; };
+		EBCFCAB7258DC91D0063B0A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCFCAB6258DC91D0063B0A6 /* ViewController.swift */; };
+		EBCFCABA258DC91D0063B0A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBCFCAB8258DC91D0063B0A6 /* Main.storyboard */; };
+		EBCFCABC258DC91E0063B0A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBCFCABB258DC91E0063B0A6 /* Assets.xcassets */; };
+		EBCFCABF258DC91E0063B0A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBCFCABD258DC91E0063B0A6 /* LaunchScreen.storyboard */; };
+		EBCFCACA258DC91E0063B0A6 /* VirtualDiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCFCAC9258DC91E0063B0A6 /* VirtualDiceTests.swift */; };
+		EBCFCAD5258DC91E0063B0A6 /* VirtualDiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCFCAD4258DC91E0063B0A6 /* VirtualDiceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBCFCAC6258DC91E0063B0A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBCFCAA7258DC91D0063B0A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBCFCAAE258DC91D0063B0A6;
+			remoteInfo = VirtualDice;
+		};
+		EBCFCAD1258DC91E0063B0A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBCFCAA7258DC91D0063B0A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBCFCAAE258DC91D0063B0A6;
+			remoteInfo = VirtualDice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBCFCAAF258DC91D0063B0A6 /* VirtualDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBCFCAB2258DC91D0063B0A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBCFCAB4258DC91D0063B0A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EBCFCAB6258DC91D0063B0A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBCFCAB9258DC91D0063B0A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBCFCABB258DC91E0063B0A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBCFCABE258DC91E0063B0A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBCFCAC0258DC91E0063B0A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBCFCAC5258DC91E0063B0A6 /* VirtualDiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualDiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBCFCAC9258DC91E0063B0A6 /* VirtualDiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualDiceTests.swift; sourceTree = "<group>"; };
+		EBCFCACB258DC91E0063B0A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBCFCAD0258DC91E0063B0A6 /* VirtualDiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualDiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBCFCAD4258DC91E0063B0A6 /* VirtualDiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualDiceUITests.swift; sourceTree = "<group>"; };
+		EBCFCAD6258DC91E0063B0A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBCFCAAC258DC91D0063B0A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBCFCAC2258DC91E0063B0A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBCFCACD258DC91E0063B0A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBCFCAA6258DC91D0063B0A6 = {
+			isa = PBXGroup;
+			children = (
+				EBCFCAB1258DC91D0063B0A6 /* VirtualDice */,
+				EBCFCAC8258DC91E0063B0A6 /* VirtualDiceTests */,
+				EBCFCAD3258DC91E0063B0A6 /* VirtualDiceUITests */,
+				EBCFCAB0258DC91D0063B0A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBCFCAB0258DC91D0063B0A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBCFCAAF258DC91D0063B0A6 /* VirtualDice.app */,
+				EBCFCAC5258DC91E0063B0A6 /* VirtualDiceTests.xctest */,
+				EBCFCAD0258DC91E0063B0A6 /* VirtualDiceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBCFCAB1258DC91D0063B0A6 /* VirtualDice */ = {
+			isa = PBXGroup;
+			children = (
+				EBCFCAB2258DC91D0063B0A6 /* AppDelegate.swift */,
+				EBCFCAB4258DC91D0063B0A6 /* SceneDelegate.swift */,
+				EBCFCAB6258DC91D0063B0A6 /* ViewController.swift */,
+				EBCFCAB8258DC91D0063B0A6 /* Main.storyboard */,
+				EBCFCABB258DC91E0063B0A6 /* Assets.xcassets */,
+				EBCFCABD258DC91E0063B0A6 /* LaunchScreen.storyboard */,
+				EBCFCAC0258DC91E0063B0A6 /* Info.plist */,
+			);
+			path = VirtualDice;
+			sourceTree = "<group>";
+		};
+		EBCFCAC8258DC91E0063B0A6 /* VirtualDiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBCFCAC9258DC91E0063B0A6 /* VirtualDiceTests.swift */,
+				EBCFCACB258DC91E0063B0A6 /* Info.plist */,
+			);
+			path = VirtualDiceTests;
+			sourceTree = "<group>";
+		};
+		EBCFCAD3258DC91E0063B0A6 /* VirtualDiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBCFCAD4258DC91E0063B0A6 /* VirtualDiceUITests.swift */,
+				EBCFCAD6258DC91E0063B0A6 /* Info.plist */,
+			);
+			path = VirtualDiceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBCFCAAE258DC91D0063B0A6 /* VirtualDice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBCFCAD9258DC91E0063B0A6 /* Build configuration list for PBXNativeTarget "VirtualDice" */;
+			buildPhases = (
+				EBCFCAAB258DC91D0063B0A6 /* Sources */,
+				EBCFCAAC258DC91D0063B0A6 /* Frameworks */,
+				EBCFCAAD258DC91D0063B0A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirtualDice;
+			productName = VirtualDice;
+			productReference = EBCFCAAF258DC91D0063B0A6 /* VirtualDice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBCFCAC4258DC91E0063B0A6 /* VirtualDiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBCFCADC258DC91E0063B0A6 /* Build configuration list for PBXNativeTarget "VirtualDiceTests" */;
+			buildPhases = (
+				EBCFCAC1258DC91E0063B0A6 /* Sources */,
+				EBCFCAC2258DC91E0063B0A6 /* Frameworks */,
+				EBCFCAC3258DC91E0063B0A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBCFCAC7258DC91E0063B0A6 /* PBXTargetDependency */,
+			);
+			name = VirtualDiceTests;
+			productName = VirtualDiceTests;
+			productReference = EBCFCAC5258DC91E0063B0A6 /* VirtualDiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBCFCACF258DC91E0063B0A6 /* VirtualDiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBCFCADF258DC91E0063B0A6 /* Build configuration list for PBXNativeTarget "VirtualDiceUITests" */;
+			buildPhases = (
+				EBCFCACC258DC91E0063B0A6 /* Sources */,
+				EBCFCACD258DC91E0063B0A6 /* Frameworks */,
+				EBCFCACE258DC91E0063B0A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBCFCAD2258DC91E0063B0A6 /* PBXTargetDependency */,
+			);
+			name = VirtualDiceUITests;
+			productName = VirtualDiceUITests;
+			productReference = EBCFCAD0258DC91E0063B0A6 /* VirtualDiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBCFCAA7258DC91D0063B0A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					EBCFCAAE258DC91D0063B0A6 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					EBCFCAC4258DC91E0063B0A6 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = EBCFCAAE258DC91D0063B0A6;
+					};
+					EBCFCACF258DC91E0063B0A6 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = EBCFCAAE258DC91D0063B0A6;
+					};
+				};
+			};
+			buildConfigurationList = EBCFCAAA258DC91D0063B0A6 /* Build configuration list for PBXProject "VirtualDice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBCFCAA6258DC91D0063B0A6;
+			productRefGroup = EBCFCAB0258DC91D0063B0A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBCFCAAE258DC91D0063B0A6 /* VirtualDice */,
+				EBCFCAC4258DC91E0063B0A6 /* VirtualDiceTests */,
+				EBCFCACF258DC91E0063B0A6 /* VirtualDiceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBCFCAAD258DC91D0063B0A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBCFCABF258DC91E0063B0A6 /* LaunchScreen.storyboard in Resources */,
+				EBCFCABC258DC91E0063B0A6 /* Assets.xcassets in Resources */,
+				EBCFCABA258DC91D0063B0A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBCFCAC3258DC91E0063B0A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBCFCACE258DC91E0063B0A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBCFCAAB258DC91D0063B0A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBCFCAB7258DC91D0063B0A6 /* ViewController.swift in Sources */,
+				EBCFCAB3258DC91D0063B0A6 /* AppDelegate.swift in Sources */,
+				EBCFCAB5258DC91D0063B0A6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBCFCAC1258DC91E0063B0A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBCFCACA258DC91E0063B0A6 /* VirtualDiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBCFCACC258DC91E0063B0A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBCFCAD5258DC91E0063B0A6 /* VirtualDiceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBCFCAC7258DC91E0063B0A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBCFCAAE258DC91D0063B0A6 /* VirtualDice */;
+			targetProxy = EBCFCAC6258DC91E0063B0A6 /* PBXContainerItemProxy */;
+		};
+		EBCFCAD2258DC91E0063B0A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBCFCAAE258DC91D0063B0A6 /* VirtualDice */;
+			targetProxy = EBCFCAD1258DC91E0063B0A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBCFCAB8258DC91D0063B0A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBCFCAB9258DC91D0063B0A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBCFCABD258DC91E0063B0A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBCFCABE258DC91E0063B0A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBCFCAD7258DC91E0063B0A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBCFCAD8258DC91E0063B0A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBCFCADA258DC91E0063B0A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VirtualDice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Krupali.VirtualDice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBCFCADB258DC91E0063B0A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VirtualDice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Krupali.VirtualDice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EBCFCADD258DC91E0063B0A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VirtualDiceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Krupali.VirtualDiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualDice.app/VirtualDice";
+			};
+			name = Debug;
+		};
+		EBCFCADE258DC91E0063B0A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VirtualDiceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Krupali.VirtualDiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualDice.app/VirtualDice";
+			};
+			name = Release;
+		};
+		EBCFCAE0258DC91E0063B0A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VirtualDiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Krupali.VirtualDiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VirtualDice;
+			};
+			name = Debug;
+		};
+		EBCFCAE1258DC91E0063B0A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VirtualDiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Krupali.VirtualDiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VirtualDice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBCFCAAA258DC91D0063B0A6 /* Build configuration list for PBXProject "VirtualDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBCFCAD7258DC91E0063B0A6 /* Debug */,
+				EBCFCAD8258DC91E0063B0A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBCFCAD9258DC91E0063B0A6 /* Build configuration list for PBXNativeTarget "VirtualDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBCFCADA258DC91E0063B0A6 /* Debug */,
+				EBCFCADB258DC91E0063B0A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBCFCADC258DC91E0063B0A6 /* Build configuration list for PBXNativeTarget "VirtualDiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBCFCADD258DC91E0063B0A6 /* Debug */,
+				EBCFCADE258DC91E0063B0A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBCFCADF258DC91E0063B0A6 /* Build configuration list for PBXNativeTarget "VirtualDiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBCFCAE0258DC91E0063B0A6 /* Debug */,
+				EBCFCAE1258DC91E0063B0A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBCFCAA7258DC91D0063B0A6 /* Project object */;
+}
